@@ -1,0 +1,28 @@
+GET http://localhost:9000/books
+
+###
+
+GET http://localhost:9000/books/62e05fb5f003b3a9c8ef983e
+
+###
+
+POST http://localhost:9000/books
+Content-Type: application/json
+
+{
+    "title": "The Pearl v23000",
+    "author": "Henry Steinbeck"
+}
+
+###
+
+DELETE http://localhost:9000/books/62e05f5ff003b3a9c8ef982b
+
+###
+
+PATCH http://localhost:9000/books/62e05fb5f003b3a9c8ef983e
+Content-Type: application/json
+
+{
+    "author": "Logan"
+}
