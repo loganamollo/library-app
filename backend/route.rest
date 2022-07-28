@@ -10,7 +10,7 @@ POST http://localhost:9000/books
 Content-Type: application/json
 
 {
-    "title": "The Pearl v23000",
+    "title": "The Pearl v4",
     "author": "Henry Steinbeck"
 }
 
